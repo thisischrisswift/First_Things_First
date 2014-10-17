@@ -1,0 +1,192 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+.title{
+	font-size: 4em;
+	font-family: "austin", "baskerville", times, serif;
+	line-height: .9;
+	font-weight: 900;
+	font-style: italic;
+	margin: 0.5em 0 .25em 0;
+    text-decoration: underline;
+    clear: both;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-size: 1em;
+}
+
+h2 {
+	font-size: 1.4em;
+	font-family: "austin", "baskerville", times, serif;
+	font-weight: 900;
+}
+
+h3 {
+
+}
+
+.subtitle {
+	margin: 0 0 .25em 0;
+}
+
+.published {
+	font-size: 1.4em;
+	font-family: "austin", "baskerville", times, serif;
+	font-weight: 100;
+	font-style: italic;
+	margin: 0 0 1.4em 0;
+}
+
+article {
+
+}
+
+.navwrapper {
+	display: flex;
+	font-size: 1.4em;
+	font-family: "austin", "baskerville", times, serif;
+	font-weight: 400;
+	margin: 1em 0 0 0;
+	max-width: 80%;
+}
+
+.navelement {
+	flex-direction: column;
+	flex:1;
+
+}
+
+body {
+	width: 65%;
+	margin: 0 auto;
+	background: #ecf0f1;
+	margin-bottom: 4em;
+}
+
+.in_essay_list {
+	background: red;
+	margin: 0 3em 0 3em;	
+}
+
+p {
+	font-size: 1.4em;
+	font-family: "austin", "baskerville", times, serif;
+	line-height: 1.4;
+}
+
+p+p {
+	text-indent: 1.5em;
+}
+
+ul {
+	font-size: 1.2em;
+	font-family: "austin", "baskerville", times, serif;
+	line-height: 1.4;
+	list-style-type: none;
+	margin: 1.4em 0 1.4em 0;
+}
+
+li {
+
+}
+
+a {
+	text-decoration: none;	
+}
+
+a:link {
+    color:black;
+}
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+	color: #f1c40f;
+}
+
+.essay {
+	max-width: 665px;
+
+}
+
+.names {
+	max-width: 665px;
+}
+
+@media (max-width: 780px) {
+      p {
+        font-size: 1.2em;
+      	}
+    ul {
+        font-size: 1.2em;
+    	}
+    body {
+    	width: 65%;
+    	background: red;
+    }
+    .title {
+    	font-size: 3em;
+    }
+
+    .published {
+	font-size: 1.2em;
+	font-family: "austin", "baskerville", times, serif;
+	font-weight: 100;
+	font-style: italic;
+	}
+
+@media (max-width: 575px) {
+	p {
+        font-size: 1em;
+      	}
+    ul {
+        font-size: 1em;
+    	}
+    body {
+    	width: 80%;
+    	background: yellow;
+    }
+
+    .published {
+	font-size: 1em;
+	font-family: "austin", "baskerville", times, serif;
+	font-weight: 100;
+	font-style: italic;
+	}
+
+@media (max-width: 500px) {
+	.title {
+		font-size: 2.5em;
+	}
+
+	p {
+        font-size: 1em;
+      	}
+
+    ul {
+        font-size: 1em;
+    	}
+
+    body {
+    	width: 80%;
+    	background: teal;
+    }
+
+    h2 {
+	font-size: 1.25em;
+	font-family: "austin", "baskerville", times, serif;
+	font-weight: 900;
+	}
+
+	.published {
+	font-size: 1em;
+	font-family: "austin", "baskerville", times, serif;
+	font-weight: 100;
+	font-style: italic;
+	}
+}
